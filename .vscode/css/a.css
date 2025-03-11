@@ -1,0 +1,136 @@
+/* 기본 마진 & 패딩 제거 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 브라우저 기본 스타일 정리 */
+html {
+    font-size: 16px;
+    line-height: 1.5;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+/* 반응형 웹 기본 설정 */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+/* 버튼 스타일 */
+button {
+    all: unset;
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+button:hover {
+    background: #0056b3;
+}
+
+/* 링크 스타일 */
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* 리스트 스타일 제거 */
+ul, ol {
+    list-style: none;
+    padding-left: 0;
+}
+
+/* 입력 필드 기본 스타일 */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+input:focus, textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.a {
+    height:200px;
+    width: 70%;
+    float: left;
+}
+.aa {
+    height:50px;
+    width:100%;
+}
+.aaa{
+    height:100%;
+    width:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+.aaaa{
+    height:70%;
+    border-radius:50%;
+    object-fit:cover;
+}
+.aab{
+    width:100px;
+    height:40px;
+    margin: 5px 0px 0px 5px;
+    float: left;
+}
+.user-name{
+    font-size: 15px;
+}
+.time{
+    font-size: 12px;
+    color:#757575;
+}
+.ab{
+    width: 99%;
+    height: 70%;
+    float: right;
+}
+.aba{
+    width: 100%;
+    height: 30%;
+}
+.title{
+    font-weight:700;
+    font-size:20px;
+}
+.abb{
+    height: 80%;
+    width: 100%;
+}
+.contant{
+    color:#757575;
+}
+.b{
+    width:30%;
+    height: 200px;
+    float:left;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.ba{
+    object-fit:cover;
+    width: 80%;
+}
