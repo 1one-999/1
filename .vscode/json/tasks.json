@@ -1,23 +1,11 @@
 {
-    "version": "2.0.0",
-    "tasks": [
-        {
-            "label": "C Build and Run",
-            "type": "shell",
-            "command": "gcc",
-            "args": [
-                "${file}",
-                "-o",
-                "${fileDirname}/${fileBasenameNoExtension}",
-                "&&",
-                "${fileDirname}/${fileBasenameNoExtension}"
-            ],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-            "problemMatcher": ["$gcc"],
-            "detail": "Generated task for building and running C program"
-        }
-    ]
+    "label": "Build and Run C",
+    "type": "shell",
+    "command": "gcc -o ${fileDirname}/${fileBasenameNoExtension} ${file} && ${fileDirname}/${fileBasenameNoExtension}",
+    "group": {
+        "kind": "build",
+        "isDefault": true
+    },
+    "problemMatcher": ["$gcc"],
+    "detail": "Compiles and runs the C program."
 }

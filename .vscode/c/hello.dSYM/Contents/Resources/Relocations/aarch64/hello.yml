@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/a9999/Documents/1/.vscode/c/hello'
+relocations:     []
+...
